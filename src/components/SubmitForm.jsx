@@ -4,7 +4,6 @@ const Submitform = (props) => {
 
     return (
         <div>
-        
             <div className="col-md-6 mx-auto">
                 <input type="text" id="username" placeholder="Username" />
             </div>

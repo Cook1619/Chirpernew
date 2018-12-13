@@ -1,8 +1,7 @@
-import React, {Component} from "react";
+import React from 'react';
 
 
-class Header extends Component {
-    render(){
+const Header = () => {
         return (
            <nav className="Nav">
              <div className="Nav-menus">
@@ -11,7 +10,6 @@ class Header extends Component {
                </div>
              </div>
            </nav>
-       );
-    }   
+       );  
 }
 export default Header;
