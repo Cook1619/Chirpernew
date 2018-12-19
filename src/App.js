@@ -45,8 +45,8 @@ class App extends Component {
     return (
       <div className = "container">
         <Header />
-        <Cardlist items = {this.state.defaultChirps} />
         <Submitform postChirp = {this.postChirp}/>
+        <Cardlist items = {this.state.defaultChirps} />
       </div>
     );
   }
